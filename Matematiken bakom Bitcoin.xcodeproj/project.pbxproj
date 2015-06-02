@@ -14,6 +14,10 @@
 		2AC1A2A31B1E603A0077CC8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1A2A21B1E603A0077CC8C /* Images.xcassets */; };
 		2AC1A2A61B1E603A0077CC8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1A2A41B1E603A0077CC8C /* LaunchScreen.xib */; };
 		2AC1A2B21B1E603A0077CC8C /* Matematiken_bakom_BitcoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1A2B11B1E603A0077CC8C /* Matematiken_bakom_BitcoinTests.m */; };
+		2AC1A2BC1B1E60770077CC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1A2BB1B1E60770077CC8C /* Main.storyboard */; };
+		2AC1A2C01B1E60940077CC8C /* opengraph.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1A2BD1B1E60940077CC8C /* opengraph.png */; };
+		2AC1A2C11B1E60940077CC8C /* sweden.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1A2BE1B1E60940077CC8C /* sweden.png */; };
+		2AC1A2C21B1E60940077CC8C /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1A2BF1B1E60940077CC8C /* usa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		2AC1A2AB1B1E603A0077CC8C /* Matematiken bakom BitcoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Matematiken bakom BitcoinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC1A2B01B1E603A0077CC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC1A2B11B1E603A0077CC8C /* Matematiken_bakom_BitcoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Matematiken_bakom_BitcoinTests.m; sourceTree = "<group>"; };
+		2AC1A2BB1B1E60770077CC8C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2AC1A2BD1B1E60940077CC8C /* opengraph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opengraph.png; sourceTree = "<group>"; };
+		2AC1A2BE1B1E60940077CC8C /* sweden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sweden.png; sourceTree = "<group>"; };
+		2AC1A2BF1B1E60940077CC8C /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,7 @@
 				2AC1A29C1B1E603A0077CC8C /* ViewController.h */,
 				2AC1A29D1B1E603A0077CC8C /* ViewController.m */,
 				2AC1A29F1B1E603A0077CC8C /* Main.storyboard */,
+				2AC1A2BB1B1E60770077CC8C /* Main.storyboard */,
 				2AC1A2A21B1E603A0077CC8C /* Images.xcassets */,
 				2AC1A2A41B1E603A0077CC8C /* LaunchScreen.xib */,
 				2AC1A2951B1E603A0077CC8C /* Supporting Files */,
@@ -96,6 +105,9 @@
 		2AC1A2951B1E603A0077CC8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2AC1A2BD1B1E60940077CC8C /* opengraph.png */,
+				2AC1A2BE1B1E60940077CC8C /* sweden.png */,
+				2AC1A2BF1B1E60940077CC8C /* usa.png */,
 				2AC1A2961B1E603A0077CC8C /* Info.plist */,
 				2AC1A2971B1E603A0077CC8C /* main.m */,
 			);
@@ -200,8 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC1A2A11B1E603A0077CC8C /* Main.storyboard in Resources */,
+				2AC1A2C01B1E60940077CC8C /* opengraph.png in Resources */,
+				2AC1A2C21B1E60940077CC8C /* usa.png in Resources */,
 				2AC1A2A61B1E603A0077CC8C /* LaunchScreen.xib in Resources */,
 				2AC1A2A31B1E603A0077CC8C /* Images.xcassets in Resources */,
+				2AC1A2BC1B1E60770077CC8C /* Main.storyboard in Resources */,
+				2AC1A2C11B1E60940077CC8C /* sweden.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
